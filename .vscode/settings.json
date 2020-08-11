@@ -1,0 +1,15 @@
+{
+  // Vetur
+  "vetur.validation.template": false,
+  "vetur.format.defaultFormatter.js": "prettier-eslint",
+  "vetur.format.enable": false,
+  
+  // Prettier + Eslint
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "vue"],
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": { // при сохранении
+    "source.fixAll.format": true, // запускаем форматирование (Prettier/Vetur)
+    "source.fixAll.eslint": true // запускаем auto-fix линтера
+  },
+  "eslint.alwaysShowStatus": true,
+}
